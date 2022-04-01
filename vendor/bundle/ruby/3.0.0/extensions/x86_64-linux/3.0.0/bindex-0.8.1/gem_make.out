@@ -1,0 +1,15 @@
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/home/niyanta/.rbenv/versions/3.0.3/bin/ruby -I /home/niyanta/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220401-24480-dnclv6.rb extconf.rb
+creating Makefile
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220401-24480-2xaxon/skiptrace/internal

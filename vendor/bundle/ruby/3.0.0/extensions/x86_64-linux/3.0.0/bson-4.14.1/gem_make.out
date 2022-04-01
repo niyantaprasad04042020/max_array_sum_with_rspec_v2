@@ -1,0 +1,21 @@
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bson-4.14.1/ext/bson
+/home/niyanta/.rbenv/versions/3.0.3/bin/ruby -I /home/niyanta/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220401-24480-52gidm.rb extconf.rb
+creating Makefile
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bson-4.14.1/ext/bson
+make DESTDIR\= clean
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bson-4.14.1/ext/bson
+make DESTDIR\=
+compiling bytebuf.c
+compiling endian.c
+compiling init.c
+compiling libbson-utf8.c
+compiling read.c
+compiling util.c
+compiling write.c
+linking shared-object bson_native.so
+
+current directory: /home/niyanta/Desktop/max_array_sum_with_rspec_v2/vendor/bundle/ruby/3.0.0/gems/bson-4.14.1/ext/bson
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bson_native.so ./.gem.20220401-24480-hinyfi
