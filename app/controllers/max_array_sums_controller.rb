@@ -14,7 +14,16 @@ class MaxArraySumsController < ApplicationController
       sub_array << @valid_array[i]
     end
 
-    return sub_array
+    max_sum_sub_array = SubArray.new(integer_array: sub_array)
+    max_sum_sub_array.save!
+
+    respond_to do |format|
+      if max_sum_sub_array
+        format.json { render json: max_sum_sub_array.to_json }
+      else
+        format.json { render json: max_sum_sub_array.errors }
+      end
+    end
 
   end
 
